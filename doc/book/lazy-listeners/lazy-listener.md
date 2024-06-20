@@ -10,7 +10,7 @@ To create a `LazyListener` instance, you must pass to its constructor:
 - a *definition* of the listener; this is an array defining:
   - a `listener` key, with the name of the listener service to pull from the container.
   - a `method` key, with the name of the method to invoke on the listener instance.
-- a *container*; this is a [PSR-11 container](https://github.com/php-fig/container),
+- a *container*; this is a [PSR-11](https://www.php-fig.org/psr/psr-11/) container,
   such as provided by
   [laminas-servicemanager](https://github.com/laminas/laminas-servicemanager),
   [Aura.Di](https://github.com/auraphp/Aura.Di), etc.

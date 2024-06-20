@@ -18,7 +18,7 @@ The feature consists of three classes:
 ## Preparation
 
 In order to use the lazy listeners feature, you will need to install
-PSR-11 Container, if you haven't already:
+[PSR-11](https://www.php-fig.org/psr/psr-11/) Container, if you haven't already:
 
 ```bash
 $ composer require psr/container
